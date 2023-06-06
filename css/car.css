@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(118, 93, 93);
+}
+.cool{
+    visibility: hidden;
+    width:100px;
+    height:100px;
+    background-color:blue;
+    transition:background-color 2s;
+    opacity: .5px;
+    border:block;
+    
+}
+
+
+.cool.red{
+    visibility: visible;
+    opacity:.5px;
+    background-color: red;
+    
+   
+}
+.h1{
+    text-align: center;
+    
+}
